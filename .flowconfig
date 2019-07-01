@@ -1,0 +1,16 @@
+[ignore]
+.*/dist
+.*/.build
+.*/node_modules/.*/test/.*
+.*/node_modules/fbjs/.*
+
+[libs]
+flow_typed/
+
+[options]
+esproposal.decorators=ignore
+esproposal.class_static_fields=enable
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=.
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+suppress_comment= \\(.\\|\n\\)*\\$FlowIssue
